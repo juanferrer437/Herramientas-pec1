@@ -1,4 +1,4 @@
-import "CookieConsent";
+import {cookieconsent} from "CookieConsent/";
 
 
 window.cookieconsent.initialise({
