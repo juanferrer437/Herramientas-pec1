@@ -10,21 +10,16 @@ body {
 
 .container-header {
     margin: 0 auto;
-    /* Centrar el contenido de la página*/
     text-align: center;
-
     box-sizing: border-box;
-
 }
 
 .logo-header {
     background-image: url("/logo.91778f73.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-top:4em;
-    margin-top:0.5em;
-    height: 400px;
-    max-height: 400px;
+    margin-top:1em;
+    height: 350px;
     background-position: center;
     text-align: center;
 }
@@ -270,8 +265,7 @@ button:hover {
 
   
     .container-header {
-        margin: 0 auto;
-        /* Centrar el contenido de la página*/
+        
         text-align: center;
         box-sizing: border-box;
     
@@ -279,15 +273,14 @@ button:hover {
     
     .logo-header {
         justify-content: center;
-        margin-top: 1em;
-        
-
+        padding-top:0;
+        margin-top:0;
+        max-height:300px;
     }
 
+    
     .menu-header {
-        padding: 1.5em;
         font-size: 1.2em;
-        
     }
 
     nav>ul {
